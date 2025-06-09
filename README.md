@@ -1,36 +1,137 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎄 SnowDev Next.js Template
 
-## Getting Started
+A modern, opinionated, and production-ready **Next.js 15** starter template powered by **React 19**, **TypeScript**, **Tailwind CSS**, and more — built with ❤️ by [SnowDev](https://github.com/DimitriTedom).
 
-First, run the development server:
+This template is ideal for building fast, scalable, and beautiful web applications using the latest technologies and UI libraries.
+
+---
+
+## 📦 Features
+
+- ✅ **Next.js 15** with React 19
+- ✅ **TypeScript** ready
+- ✅ **Tailwind CSS v3.4**
+- ✅ **Radix UI Components**
+- ✅ **ShadCN UI-ready** (via class-variance-authority & tailwind-merge)
+- ✅ **Lucide Icons**
+- ✅ **Form handling** with React Hook Form + Zod resolver
+- ✅ **Dark mode support** via `next-themes`
+- ✅ **UI Notifications** with Sonner
+- ✅ **Resizable Panels** for advanced layouts
+- ✅ **Animation utilities** via TailwindCSS Animate
+
+---
+
+## 🧰 Requirements
+
+Make sure you have the following installed:
+
+| Tool    | Version     |
+| ------- | ----------- |
+| Node.js | `>=20.12.0` |
+| Bun     | `>=1.2.10`  |
+
+> ⚠️ **Note**: This project recommends using **Bun** as the package manager.
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repo
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/DimitriTedom/NEXTJS-TEMPLATE.git my-app
+cd my-app
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Install dependencies
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+bun install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 3. Run the development server
 
-## Learn More
+```bash
+bun run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🛠 Scripts Overview
 
-## Deploy on Vercel
+| Script  | Description                   |
+| ------- | ----------------------------- |
+| `dev`   | Starts the development server |
+| `build` | Builds the production app     |
+| `start` | Starts the production server  |
+| `lint`  | Lints the codebase            |
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🧩 Dependencies
+
+### Production Dependencies
+
+- **React / ReactDOM**: `^19.0.0`
+- **Next.js**: `15.3.3`
+- **Tailwind CSS**: `^3.4.17`
+- **Radix UI Components**: Dialog, Dropdown Menu, Tooltip, etc.
+- **UI Utilities**: `class-variance-authority`, `tailwind-merge`, `clsx`
+- **Icons**: `lucide-react`
+- **Forms**: `react-hook-form`, `zod`, `@hookform/resolvers`
+- **State & UX**: `next-themes`, `sonner`, `react-resizable-panels`
+- **Animations**: `tailwindcss-animate`
+
+### Dev Dependencies
+
+- TypeScript, ESLint, PostCSS, Tailwind config plugins
+- Types for Node, React, and React DOM
+
+---
+
+## 💡 Tips for Customization
+
+- **Tailwind Configuration**: Modify `tailwind.config.js` to extend themes or add custom styles.
+- **Theme Support**: Use `next-themes` to toggle between light/dark modes.
+- **Component Library**: You can build your own components using Radix UI primitives and `class-variance-authority`.
+- **Linting**: Keep your code clean with ESLint (`bun run lint`).
+
+---
+
+## 📁 Project Structure (Example)
+
+```
+my-app/
+├── app/                  # Next.js App Router pages
+├── components/           # Reusable UI components
+├── lib/                  # Utility functions and helpers
+├── public/               # Static assets
+├── styles/               # Global styles and Tailwind base
+├── tailwind.config.js    # Tailwind CSS configuration
+├── tsconfig.json         # TypeScript configuration
+└── README.md             # This file
+```
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please open an issue or submit a PR if you'd like to improve this template.
+
+---
+
+## 📬 Questions?
+
+Feel free to reach out on GitHub or check the official documentation:
+
+- [Next.js Docs](https://nextjs.org/docs)
+- [Tailwind CSS Docs](https://tailwindcss.com/docs)
+- [Radix UI Docs](https://www.radix-ui.com/docs)
+
+---
+
+Made with ❤️ by [SnowDev](https://github.com/DimitriTedom)
+🚀 Kickstart your next project today!
